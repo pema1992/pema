@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Study Hub</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Study Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="notes.html">Notes and Materials</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 id="home">Introduction</h2>
+        <p>Welcome to Study Hub, where students can access notes and materials at any time.</p>
+        <div class="image-container">
+            <img id="welcomeImage" src="welcome.jpg" alt="Welcome Image">
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Study Hub</p>
+    </footer>
+
+    <!-- Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
